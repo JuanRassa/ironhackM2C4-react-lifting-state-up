@@ -1,12 +1,10 @@
 // src/components/Summary.jsx
 
-import React from "react";
-
-function Summary(props) {
+function Summary({ tasksCompleted }) {
   return (
     <div>
       <h1>TASKS COMPLETED:</h1>
-      <p className="tasks-completed">0</p>
+      <p className='tasks-completed'>{tasksCompleted}</p>
     </div>
   );
 }
